@@ -1,0 +1,164 @@
+body,ul,dl,dd,h1,h2,h3,h4,h5,h6,p,table,hr{margin:0;padding:0;}
+body{font:16px "微软雅黑";line-height: 2;color:#666;}
+a{text-decoration: none;}
+button{font-family: "微软雅黑";cursor: pointer;}
+ul{list-style: none;}
+img{border: 0;}
+.wrap{width: 1000px;margin: 0 auto;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after{content: "\200B";display: block;height: 0;clear: both;}
+.clearfix{*zoom: 1;}
+/*resert end*/
+/*head start*/
+.trea_head{margin-top: 20px;height: 65px;line-height: 65px;}
+.trea_nav{background-color: #333;height: 45px;}
+.trea_nav li{float: left;padding: 5px  28px;border-left: 1px solid #414141;}
+.trea_nav .nav_main a{color: #fff;}
+.trea_nav .nav_main li:hover{background-color: #444444;border-bottom: 3px solid #FBD89D;}
+/*banner*/
+.trea_banner{background: url(images/banner3.png) no-repeat center;width: 100%;height: 600px;margin-bottom: 140px;}
+.trea_banner .banner_p{position: relative;}
+.trea_banner .banner_try,.trea_banner .banner_sec{position: absolute;top: 425px;color: #FBD89D;background: none;border:1px solid #FBD89D;border-radius: 2px;padding: 15px 25px;}
+.trea_banner .banner_try{left: 315px;}
+.trea_banner .banner_sec{left:525px;}
+.trea_banner img{position: absolute;top: 583px;}
+.trea_banner .circle1{left: 0px;}
+.trea_banner .circle2{left: 215px;}
+.trea_banner .circle3{left: 435px;}
+.trea_banner .circle4{left: 660px;}
+.trea_banner .circle5{left: 870px;}
+/*message*/
+.trea_message{text-align: center;}
+.trea_message h1{font-size: 30px;}
+.trea_message .trea_num{font-size: 18px;border-top: 2px solid #FFB64D;padding: 7px;}
+.trea_message table{margin-top: 15px;}
+.trea_message table,.trea_message th{border: 2px solid #D9D9D9;border-collapse: collapse;}
+.trea_message th{width: 203px;height: 75px;}
+.trea_message th img{vertical-align: middle;margin-right: 12px;}
+.trea_message .trea_notice{border: 2px solid #474874;margin-top: 20px;}
+.trea_message .trea_notice dl{border-right: 2px solid #474874;width: 192px;height:385px;float: left;padding: 33px 32px 33px 23px;}
+.trea_message .trea_notice button{background: none;padding: 12px 40px;border: none;border-radius: 35px;outline: none;}
+.trea_message .trea_notice .notice_head{margin-bottom: 23px;background-color: #474874;color: #fff;}
+.trea_message .trea_notice .notice_btn{margin-top: 90px;border: 3px solid #474874;color: #84849E;}
+/*free*/
+.trea_free{background: url(images/bg1.jpg) no-repeat center;width: 100%;height: 527px;margin-top: 45px;}
+.trea_free .free_downall{position: absolute;top: -11px; left: -6px;background: none;border: none;outline: none;}
+.trea_free .free_true1 img{vertical-align: middle;}
+.trea_free .free_true1 a{border: 1px solid #FFC562;color: #FFC562;padding:3px 15px;border-radius: 15px;font-size: 12px;margin-left: 12px;}
+.trea_free .free_true1,.trea_free .free_true2,.trea_free .free_true3,.trea_free .free_true4,.trea_free .free_true5,.trea_free .free_true6,.trea_free .free_true7,.trea_free .free_true8,.trea_free .free_true9,.trea_free .free_true10{position: absolute;left: 475px;color: #fff;}
+.trea_free .free_true1{top: 45px;}
+.trea_free .free_true2{top: 80px;}
+.trea_free .free_true3{top: 115px;}
+.trea_free .free_true4{top: 150px;}
+.trea_free .free_true5{top: 185px;}
+.trea_free .free_true6{top: 220px;}
+.trea_free .free_true7{top: 253px;}
+.trea_free .free_true8{top: 286px;}
+.trea_free .free_true9{top: 320px;}
+.trea_free .free_true10{top: 353px;}
+.trea_free .free_btn a{color: #FFC562;border: 2px solid #FFC562;position: absolute;bottom: 30px;padding: 8px 35px;border-radius: 20px;}
+.trea_free .free_btn .btn_fast{right: 375px;}
+.trea_free .free_btn .btn_online{right: 150px;}
+.trea_free .free_word{position: relative;height: 527px;}
+/*development*/
+.trea_devel{background: url(images/bg.jpg);}
+.trea_devel .devel_main{text-align: center;}
+.trea_devel .devel_main .s_head{font-size: 18px;}
+.trea_devel .devel_main .best_text{width: 416px;text-align: left;font:bold 14px "微软雅黑";line-height: 20px;margin-top: 33px;}
+.trea_devel .devel_main .best_text span{color:#F4A22D ;font-size: 24px;}
+.trea_devel .devel_main .best_text p{margin: 35px 0;}
+.trea_devel .devel_main .best_img{margin-top: 70px;}
+.trea_devel .company li{float: left;margin: 20px 20px 0px 0;width: 235px;height: 90px;}
+.trea_devel .company{padding-bottom: 40px;}
+/*pass once*/
+.trea_once{padding-bottom: 30px;}
+.trea_once .once_ex dl{border: 2px solid #BDBEE1;width: 195px;height: 400px;font-size: 14px;padding: 15px 20px;margin-right: 13px;}
+.trea_once .once_ex .ex_name{font-size: 18px; color: #333;}
+.trea_once .once_ex .ex_name span{font-size: 14px;}
+.trea_once .once_ex .ex_com{padding-bottom:24px ;}
+.trea_once .once_ex .ex_btn{background-color: #7F80AB;padding: 15px 30px;border-radius: 25px;color: #fff;}
+.trea_once .once_ex .ex_main{padding-bottom: 20px;line-height: 25px;}
+/*short time*/
+.trea_time{background-color: #F5F5F5;padding-top: 35px;}
+.trea_time .video_play{width: 750px;padding-bottom: 35px;}
+.trea_time .video_choice{background-color: #fff;width: 250px;}
+.trea_time .video_choice dl{width: 210px;margin: 0 auto;height: 200px;}
+.trea_time .video_choice dd{text-align: left;}
+.trea_time .video_choice .choice_name{color: #686868; font-size: 14px;}
+.trea_time .video_choice .choice_name span{float: right;}
+.trea_time .video_choice .choice_cur{border: 2px solid #FFB852;}
+.trea_time .video_choice .choice_bo{border-bottom: 1px solid #DDDDDD;margin-bottom: 20px;margin-top: 20px;}
+.trea_time .choice_grade{background-color: #F1F1FF;border-right: 1px solid #7B7EEA;border-top: 1px solid #7B7EEA;border-bottom: 1px solid #C1C1CC;}
+.trea_time .choice_grade .grade_head{width: 195px;height:230px;background-color: #5E61DC;color: #fff;}
+.trea_time .choice_grade .grade_head dt{background-color: #494CC3;height: 70px;line-height: 70px;font-size: 24px;font-weight: bold;}
+.trea_time .choice_grade .grade_head a{color: #fff;font-size: 15px;border: 2px solid #fff;padding: 13px 28px;border-radius: 30px;}
+.trea_time .choice_grade .grade_head .head_price{font-size: 30px; font-weight: bold;padding-top: 10px;padding-bottom: 30px;}
+.trea_time .choice_grade dt{font-weight: bold;font-size: 18px;}
+.trea_time .choice_grade .grade_main1{width: 275px;text-align: left;padding:4px  24px 2px 27px;line-height: 29px;border-right: 1px solid #B9B9E4;margin: 10px 0;}
+.trea_time .choice_grade .grade_main2{text-align: left;padding:4px  24px 32px 27px;line-height: 29px;border-right: 1px solid #B9B9E4;margin: 10px 0;}
+.trea_time .choice_grade .grade_main3{text-align: left;padding:14px  24px 32px 27px;line-height: 29px;}
+.trea_time .choice_bgfff{background-color: #fff;padding-top: 25px;padding-bottom: 33px;}
+.trea_time .choice_next{border-top: none;}
+.trea_time .choice_next .grade_head dt{background-color: #E98A00;}
+.trea_time .choice_next .grade_head{background-color: #F4A129;}
+.trea_time .choice_next{background-color: #FFF8F1;border-bottom: 1px solid #EAAF7B;border-right: 1px solid #EAAF7B;}
+.trea_time .choice_next .grade_main1{border-right: 1px solid #DEC7AA;margin: 10px 0;padding:4px  24px 30px 27px;}
+.trea_time .choice_next .grade_main2{border-right: 1px solid #DEC7AA;margin: 10px 0;padding:4px  78px 90px 27px;}
+/*promise*/
+.trea_promise{background: url(images/accte_02.jpg) no-repeat center;width: 100%;height: 332px;}
+.trea_promise .promise_three{position: relative;height: 332px;}
+.trea_promise a{position: absolute;top: 257px;border: 2px solid #7779FF;color: #7779FF;border-radius: 20px;}
+.trea_promise .promise_ans{left: 205px;padding: 3px 48px;}
+.trea_promise .promise_online{left:450px;padding: 3px 28px;}
+.trea_promise .promise_free{left: 690px;padding: 3px 49px;}
+/*only*/
+.trea_only{background-color: #F5F5F5;padding-bottom: 28px;}
+.trea_only h1{color: #474874;}
+.trea_only .only_load{margin-top: 50px;}
+.trea_only .only_load dl{width: 160px;height:220px;background-color: #fff;line-height: 28px;margin-right: 8px;}
+.trea_only .only_load a{background-color: #6869A2;padding: 9px 21px;border-bottom: 3px solid #52538A;color: #fff;}
+.trea_only .only_load dd{padding-top: 10px;font-size: 14px;}
+.trea_only .only_load .load_dl dt{padding-top: 23px 0;}
+/*phone*/
+.trea_phone{margin-top: 45px;position: relative;}
+.trea_phone .phone_icon{position: absolute;left: 380px;top: -15px;}
+.trea_phone .phone_icon img{vertical-align: middle;}
+/*best teach*/
+.best_teach{background-color: #fff;padding-top: 45px;}
+.best_teach .teach_teacher{margin-top: 25px;}
+.best_teach .teach_teacher li{float: left;margin-right: 45px;}
+.best_teach .teacher_info{border: 1px solid #CCCCCC;background-color: #F6F6F6;height: 133px;text-align: left;padding: 50px 0 0 58px;position: relative;margin-top: 40px;margin-bottom: 118px;}
+.best_teach .teacher_info img{position: absolute;top: -9px;left: 0px;}
+.best_teach .teacher_info a{position: absolute;top: 203px;left: 408px;border: 2px solid #474874;color: #474874;padding: 15px 50px;border-radius: 35px;}
+/*no unknow*/
+.trea_know{background-color: #F5F5F5;padding-top: 49px;padding-bottom: 38px;}
+.trea_know dl{float: left;height: 191px;margin-right: 35px;margin-top: 30px;}
+.trea_know dl a{background-color: #6869A2;padding: 9px 30px;color: #fff;margin-left: 9px;}
+/*one year*/
+.trea_year{padding-top: 28px;}
+.trea_year .serv_pro dl{float: left;width: 175px;height: 150px;margin-top: 55px;border-right: 1px solid #DDDDDD;padding-top: 40px;padding: 40px 17px;}
+.trea_year .serv_pro dt{padding-bottom: 25px;}
+.trea_year .serv_pro .pro_s{font-weight: bold;}
+.trea_year .serv_pro  .pro_h{font-size: 14px;}
+.trea_year .serv_chat dl{float: left;width: 180px;height: 90px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;padding-bottom: 26px;}
+.trea_year .year_server{padding-bottom: 33px;}
+.trea_year .serv_chat dt{margin-top: 15px;margin-bottom: 5px;}
+/*agree*/
+.trea_agree{background-color: #F5F5F5;padding-bottom: 44px;}
+.trea_agree .agree_ex{padding-top: 25px;position: relative;}
+.trea_agree .agree_num .agree_bg{background: url(images/bubble.png) no-repeat;width: 737px;height: 67px;}
+.trea_agree .agree_num .agree_bg p{font-size: 14px;padding: 5px 30px 0 30px;text-align: left;}
+.trea_agree .agree_num{margin-top: 25px;padding-left: 100px;}
+.trea_agree .agree_ex .agree_he{border:none;background-color: none;height: 0px;text-align: left;padding: 5px 0 0 58px;position: relative;margin-top: 40px;margin-bottom: 118px;}
+.footer{background: url(images/footerimg.jpg) no-repeat center;width: 100%;height: 492px;}
+.footer img{margin-top: 44px;}
+
+
+
+
+
+
+
+
+
